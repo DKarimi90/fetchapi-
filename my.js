@@ -1,7 +1,7 @@
 
 // fetching data from endpoint and displaying on window using DOM manipulation 
 // url = [baseurl + endpoint]  
-function createElement() {
+function createElementAndAppend() {
     let baseURL = "https://jsonplaceholder.typicode.com";
     let postsEndpoint = "/posts";
     
@@ -19,5 +19,5 @@ function createElement() {
       console.log(data)
     })
   }
-  createElement(); 
+  createElementAndAppend(); 
     
